@@ -10,7 +10,8 @@
 int main ()
 {
 	int num1 , num2 , num3 , num4 ;
-	int result1 , result2 , totalresult ;
+	int result1 ;
+	float result2 , totalresult ;
 	printf("please enter the num1 = ");
 	scanf("%d",&num1);
 	printf("please enter the num2 = ");
@@ -23,7 +24,7 @@ int main ()
 	result2 = (num3 - num4 );
 	if((result2>0)&&(result2!=0))
 	{
-		printf("the result of %d / %d = %d ",result1,result2,result1/result2);
+		printf("the result of %d / %0.3f = %0.3f ",result1,result2,result1/result2);
 	}
 	else 
 	{
